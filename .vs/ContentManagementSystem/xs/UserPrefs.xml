@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{8F53D414-D29F-4DF1-94F6-C255266D1E31}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ContentManagementSystem/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="ContentManagementSystem/Controllers/HomeController.cs" Line="23" Column="24" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ContentManagementSystem" expanded="True">
+            <Node name="ContentManagementSystem" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ContentManagementSystem PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

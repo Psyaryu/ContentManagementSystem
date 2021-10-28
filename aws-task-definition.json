@@ -9,7 +9,7 @@
         "logDriver": "awslogs",
         "secretOptions": null,
         "options": {
-          "awslogs-group": "/ecs/ContentManagementSystem",
+          "awslogs-group": "/ecs/bgp-cms",
           "awslogs-region": "us-east-1",
           "awslogs-stream-prefix": "ecs"
         }
@@ -50,7 +50,7 @@
       "memoryReservation": 256,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "621251833729.dkr.ecr.us-east-1.amazonaws.com/bgp-test",
+      "image": "621251833729.dkr.ecr.us-east-1.amazonaws.com/bgp-test:889aa9936865c9c5e1d7bde1ce188db08a8510af",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -67,7 +67,7 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "bgp-test-CMS"
+      "name": "bgp-cms-app"
     }
   ],
   "placementConstraints": [],
@@ -77,8 +77,8 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:621251833729:task-definition/ContentManagementSystem:1",
-  "family": "ContentManagementSystem",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-1:621251833729:task-definition/bgp-cms:1",
+  "family": "bgp-cms",
   "requiresAttributes": [
     {
       "targetId": null,
@@ -146,6 +146,10 @@
     "FARGATE"
   ],
   "networkMode": "awsvpc",
+  "runtimePlatform": {
+    "operatingSystemFamily": "LINUX",
+    "cpuArchitecture": null
+  },
   "cpu": "256",
   "revision": 1,
   "status": "ACTIVE",

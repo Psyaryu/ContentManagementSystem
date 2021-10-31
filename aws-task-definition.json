@@ -37,6 +37,10 @@
           "name": "ENDPOINT"
         },
         {
+          "valueFrom": "arn:aws:secretsmanager:us-east-1:621251833729:secret:databaseName-GKoEUY",
+          "name": "DBNAME"
+        },
+        {
           "valueFrom": "arn:aws:secretsmanager:us-east-1:621251833729:secret:databasePass-pptL6v",
           "name": "PASS"
         },

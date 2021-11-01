@@ -3,21 +3,6 @@
     <Files>
       <File FileName="ContentManagementSystem/Controllers/HomeController.cs" Line="23" Column="24" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="ContentManagementSystem" expanded="True">
-            <Node name="ContentManagementSystem" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="HomeController.cs" selected="True" />
-              </Node>
-              <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.ContentManagementSystem PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
